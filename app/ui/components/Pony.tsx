@@ -65,7 +65,7 @@ export default function Pony() {
   }, []);
 
   return (
-    <i className="text-5xl fixed" ref={ponyRef}>
+    <i className="text-5xl fixed transition-all ease-in-out" ref={ponyRef}>
       🦄
     </i>
   );
