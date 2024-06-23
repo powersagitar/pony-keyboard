@@ -62,7 +62,7 @@ export default function Pony() {
     };
 
     checkIntersection();
-  }, []);
+  }, [setTextboxContent]);
 
   return (
     <i className="text-5xl fixed transition-all ease-in-out" ref={ponyRef}>
